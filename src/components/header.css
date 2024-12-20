@@ -1,0 +1,30 @@
+.Header {
+    background-color: seagreen;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Fixes the header to the viewport */
+    top: 0;
+    width: 100%; /* Ensure it spans the full width of the page */
+    z-index: 1000;
+   
+  }
+  
+  
+  .Header nav {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 150px;
+ 
+    
+  }
+  
+  .Header nav a {
+    text-decoration: none; /* Remove underline */
+    font-size: 16px;
+    color: whitesmoke;
+    padding: 5px 10px; 
+  }
+  
+  
+  
